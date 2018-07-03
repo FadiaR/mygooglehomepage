@@ -1,0 +1,15 @@
+header {
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#app-img {
+	height: 50px;
+	width: 50px;
+}
+
+.main {
+	display: flex;
+	justify-content: center;
+}
