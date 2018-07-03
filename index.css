@@ -48,6 +48,15 @@ div.flex-container {
   /* background: yellow; */
 }
 
+input[type=search]{
+  
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 div.flex-item {
   margin-bottom: 20px;
   /* background: green; */
@@ -64,22 +73,38 @@ div.flex-item {
   box-shadow: 2px 2px 1px lightgrey;
 }
 
-.search-btn {
-  border: solid 1px  #f2f2f2;
-  /* color: #757575; */
-  color: grey;
-  font-size: 13px;
-  font-family: arial;
-  font-weight: bold;
-  padding: 10px;
+.research{
+  background-color: rgba(211, 211, 211, 0.42);
+  padding: 11px 33px;
+  color:gray;
+    font-weight: bold;
+    font-size:11px;
+    text-decoration: none;
+    border:rgba(211, 211, 211, 0.42) ;
+    
 }
 
-.search-btn:hover{
+button.research:hover{
   color: black;
-  border: solid 1px black;
-  box-shadow: 2px 2px 1px lightgrey;
+  border: 1px solid ;
+  border-color:rgba(211, 211, 211, 0.70); 
 }
 
+
+.lucky{
+  background-color: rgba(211, 211, 211, 0.42);
+  padding: 11px 33px;
+  color:gray;
+    font-weight: bold;
+    font-size:11px; 
+    text-decoration: none;
+    border: none;
+}
+button.lucky:hover{
+  color: black;
+  border: 1px solid;
+  border-color:rgba(211, 211, 211, 0.70); 
+}
 html, body {
   height: 100%;
   width: 100%;
